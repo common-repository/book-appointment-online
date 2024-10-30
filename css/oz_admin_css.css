@@ -1,0 +1,1253 @@
+.oz_worktime_div {
+	width:100%;
+    padding: 20px 10px;
+}
+
+table.oz_worktime {
+	width:100%;
+	border-collapse: collapse;
+	margin-top: 10px;
+}
+
+table.oz_worktime th,
+table.oz_worktime td {
+	text-align:left;
+	padding: 6px;
+}
+
+table.oz_worktime tr.remove td {
+	padding:5px;
+	font-style:italic;
+}
+
+table.oz_worktime tr.times-line td {
+	border: 1px solid #ddd;
+	padding: 10px;
+}
+
+table.oz_worktime tr.times-line td:first-child {
+	font-weight:bold;
+	font-size:1.1em;
+}
+
+table.oz_worktime .remove-date {
+	cursor:pointer;
+	color:#a00;
+}
+
+table.oz_worktime .remove-date:hover {
+    color: #dc3232;
+}
+
+.oz_btn.add-date {
+	margin-top:10px;
+}
+
+.oz_worktime_div .add-date-time {
+margin-left:5px;
+height: 100%;
+padding: 5px 25px;
+}
+
+.oz_worktime_div .add-date-time span {
+    vertical-align: middle;
+	}
+
+.oz_worktime_div .add-block {
+	width:100%;
+	margin-top:10px;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  align-items:center;
+}
+
+.oz_worktime_div .at-time,
+.oz_worktime_div .at-date {
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.oz_worktime_div .hide {
+display:none;
+}
+
+.at-repeat .at-repater-block {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	align-items: center;
+	border: 0px solid #ddd;
+	margin: 0 0 10px;
+    border-radius: 0px;
+    padding: 10px;
+}
+
+table.form-table td.at-field {
+padding:0 10px 10px;
+}
+
+table.form-table td.at-field.width-50 {
+width:50%;
+vertical-align:top;
+}
+
+table.form-table .at-inline .at-label {
+	line-height:1;
+    padding-top: 0;
+}
+
+table.form-table  .dashicons.dashicons-no {
+cursor:pointer;
+color:#a00;
+}
+
+table.form-table  .dashicons.dashicons-no:hover {
+    color: #dc3232;
+	}
+	
+.button-primary.button-large span {
+	display:inline-block;
+    vertical-align: middle;
+}
+
+#calendar.fc {
+-webkit-transition: opacity .3s ease;
+transition: opacity .3s ease;
+}
+
+body.oz_calen_load #calendar.fc {
+	opacity: 0.2;
+	pointer-events: none;
+	}
+	
+.plav_time_text {
+    padding: 20px 0;
+	font-size: 17px;
+    color: #1a1a1a;
+}
+
+.plav_time_text span {	
+color: #0085ba;
+border-bottom: 1px dashed;
+cursor:pointer;
+	}
+	
+.plav_time_text span:hover {
+opacity:0.8;
+}
+
+.oz_flex_container {
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    max-width: 100%;
+	-webkit-align-items: left;
+    align-items: left;
+	-webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-top: 15px;
+	-webkit-flex-direction: column;
+    flex-direction: column;
+}
+
+.oz_flex_container > * {
+margin-bottom:10px;
+}
+
+.width48fl {
+width:48%;
+margin:0 1% 10px;
+}
+
+.at-label .red {
+	color: #ca4a1f;
+}
+
+#oz_dashboard_widget_full .welcome-panel-content {
+padding-bottom: 20px;
+}
+
+#adminmenu a.menu-top[href*="book-appointment-online"],
+#adminmenu a.menu-top.menu-icon-personal,
+#adminmenu a.menu-top.menu-icon-clients,
+#adminmenu a.menu-top.menu-icon-services  {
+	border-left:3px solid orange;
+}
+
+#adminmenu a.menu-top[href*="book-appointment-online"] div.wp-menu-image:before,
+#adminmenu a.menu-top.menu-icon-personal div.wp-menu-image:before,
+#adminmenu a.menu-top.menu-icon-clients div.wp-menu-image:before,
+#adminmenu a.menu-top.menu-icon-services  div.wp-menu-image:before {
+	color: orange;
+}
+
+.times-line.empty.warning {
+	background:#FF7373;
+}
+
+table#book_oz_worktime {
+	display:none;
+}
+
+select.oz_book_select_block {
+    padding: 15px 10px;
+    border-radius: 2px;
+    height: auto;
+    font-size: 1.2em;
+    color: #484848;
+}
+
+.select2-container {
+	min-width: 50%;
+}
+
+#datePickerInput .ui-datepicker-calendar thead th {
+font-size: 12px;
+letter-spacing: 1px;
+text-align: center;
+padding-top: 10px;
+border:0px;
+text-transform: uppercase;
+font-weight: 400;
+color: #2b2b2b;
+}
+
+#datePickerInput .ui-datepicker-calendar tbody td {
+border:0px;
+text-align: center;
+background: #fff;
+padding: 5px;
+}
+
+#datePickerInput .ui-datepicker-calendar tbody td.ui-datepicker-unselectable {
+opacity:0.5;
+}
+
+#datePickerInput .ui-datepicker-calendar tbody td[data-handler="selectDay"] a {
+    color: #0bafb9;
+    position: relative;
+    font-weight: bold;
+}
+
+#datePickerInput .ui-datepicker-calendar tbody td[data-handler="selectDay"] a:after {
+content:'';
+display:table;
+border-radius:50%;
+background:#2dde98;
+width:4px;
+height:4px;
+position:absolute;
+top: -2px;
+right: -5px;
+}
+
+
+#datePickerInput  .ui-datepicker-header {
+    background: #2dde98;
+    color: #fff;
+    padding: 5px 10px;
+	}
+	
+#datePickerInput .ui-datepicker-calendar th {
+	background:#fff;
+}
+
+#datePickerInput .ui-state-default, 
+#datePickerInput .ui-widget-content .ui-state-default, 
+#datePickerInput .ui-widget-header .ui-state-default {
+border:0px;
+background:none;
+text-align:center;
+}
+
+/* new style from clients */
+
+.squaredThree {
+	float: none;
+    display: inline-block;
+    width: auto;
+    padding: 0px;
+    position: relative;
+    box-shadow: none;
+    border: 0px;
+    margin: 10px 0px;
+}
+
+ul li.squaredThree input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: none;
+    font-size: 0;
+    text-indent: -9999px;
+	border: 0px;
+    background: none;
+    line-height: 0;
+    box-shadow: none;
+}
+
+ul li.squaredThree label {
+    position: relative;
+    z-index: 2;
+    background: #fff;
+    padding: 5px 10px;
+    border: 1px solid #f1efe7;
+    border-radius: 4px;
+    color: #585858;
+    cursor: pointer;
+    margin: 0;
+    -webkit-transition: .3s all ease;
+    transition: .3s all ease;
+}
+
+ul li.squaredThree.active label {
+    color: #fff;
+    background: #2dde98;
+    border: 1px solid #2dde98;
+}
+
+#datePickerInput .ui-datepicker-calendar tbody td a.ui-state-active {
+	background: #2dde98;
+    color: #fff;
+    border-radius: 2px;
+}
+
+#datePickerInput .ui-datepicker-calendar tbody td[data-handler="selectDay"] a.ui-state-active:after {
+	display:none;
+}
+
+#oz_start_date_field_id, #oz_time_rot {
+	display:none;
+}
+
+#book_oz_clientTime .at-label label,
+#book_oz_personal1_meta_box .at-label label,
+#book_oz_personal_meta_box .at-label label,
+#book_oz_service .at-label label {
+	color:#67757c;
+	font-size:14px;
+	font-weight:400;
+}
+
+#book_oz_clientTime .at-field input ,
+#book_oz_personal1_meta_box  .at-field input,
+#book_oz_service .at-field input,
+.oz_worktime_div .at-date,
+.oz_worktime_div .at-time,
+body[class*="book-appointment-online"] input[type="text"] {
+    box-shadow: none;
+    border-color: #e7e7e7;
+    width: 100%;
+    padding: 10px;
+	border-radius:0px;
+	-webkit-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+ #book_oz_clientTime .at-field input:focus,
+ table#book_oz_clientTime .select2-container--default .select2-selection--single:focus,
+ #book_oz_service .select2-container--default .select2-selection--single:focus,
+#book_oz_personal1_meta_box  .at-field input:focus,
+#book_oz_personal_meta_box select:focus,
+#book_oz_service .at-field input:focus,
+.oz_worktime_div .at-date:focus,
+.oz_worktime_div .at-time:focus,
+body[class*="book-appointment-online"] input[type="text"]:focus,
+body[class*="book-appointment-online"] select:focus,
+#book_oz_clientTime select:focus  {
+    box-shadow: none;
+    border-color: #878787;
+	outline:none;
+ }
+ 
+body .form-table td.at-field {
+	border:0px;
+}
+ 
+ table#book_oz_clientTime td.at-field {
+	 border:0px;
+ }
+ 
+table#book_oz_clientTime .select2-container--default .select2-selection--single,
+#book_oz_personal_meta_box select,
+#book_oz_service .select2-container--default .select2-selection--single,
+body[class*="book-appointment-online"] select,
+#book_oz_clientTime select  {
+    box-shadow: none;
+    border-color: #e7e7e7;
+    width: 100%;
+    padding: 10px 10px;
+	-webkit-transition: all .3s ease;
+	transition: all .3s ease;
+    border-radius: 2px;
+    height: auto;
+    padding: 5px 5px;
+	min-height: 40px;
+}
+
+#book_oz_personal_meta_box select#oz_rab1,
+#book_oz_personal_meta_box select#oz_rab2  {
+	width:60px;
+	margin-right:10px;
+	padding:8px 5px;
+}
+
+#book_oz_personal_meta_box select#oz_rab2  {
+    margin-left: 10px;
+}
+
+table#book_oz_clientTime .select2-container--default .select2-selection--single .select2-selection__arrow b,
+#book_oz_service .select2-container--default .select2-selection--single .select2-selection__arrow b {
+	margin-top: 4px;
+}
+
+.select2-results__option {
+	-webkit-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+.select2-container--default .select2-results__option--highlighted[aria-selected] {
+	background:#2dde98;
+}
+
+table#book_oz_clientTime .ui-datepicker {
+	width:98%;
+	padding:0;
+    box-shadow: none;
+    border-color: #e7e7e7;
+	border-radius:2px;
+}
+
+table#book_oz_clientTime .ui-datepicker td span,table#book_oz_clientTime .ui-datepicker td a {
+font-size: 12px;
+padding: .5em .2em;
+}
+
+table#book_oz_clientTime #datePickerInput .ui-datepicker-header {
+	background: none;
+    color: #878787;
+    border: 0px;
+    border-bottom: 1px solid #e7e7e7;
+    border-radius: 0px;
+    margin: 0 5px;
+    padding-bottom: 15px;
+}
+
+table#book_oz_clientTime .ui-datepicker .ui-datepicker-title span {
+	display:block;
+	line-height:0;
+}
+
+table#book_oz_clientTime .ui-datepicker .ui-datepicker-title span.ui-datepicker-month {
+	color:#1a1a1a;
+	margin-top:10px;
+}
+
+table#book_oz_clientTime .ui-datepicker-year {
+	font-weight:400;
+    font-size: 0.9em;
+    margin-bottom: 5px;
+}
+
+table#book_oz_clientTime .ui-datepicker-next,
+table#book_oz_clientTime .ui-datepicker-prev {
+background:none;
+border:none;
+cursor:pointer;
+color:#e7e7e7;
+}
+
+table#book_oz_clientTime .ui-datepicker-next.ui-state-hover,
+table#book_oz_clientTime .ui-datepicker-prev.ui-state-hover {
+color:#878787;
+}
+
+table#book_oz_clientTime .ui-datepicker-next {
+right:2px;
+top:2px;
+}
+
+table#book_oz_clientTime .ui-datepicker .ui-datepicker-prev {
+	left:0;
+	top:4px;
+}
+
+table#book_oz_clientTime .ui-datepicker .ui-datepicker-prev span, 
+table#book_oz_clientTime .ui-datepicker .ui-datepicker-next span {
+    display: none;
+}
+
+table#book_oz_clientTime .ui-datepicker-next:before,
+table#book_oz_clientTime .ui-datepicker-prev:before {
+	    content: "\f345";
+	    font-family: dashicons;
+		font-size:36px;
+		font-weight:normal;
+}
+
+table#book_oz_clientTime .ui-datepicker-prev:before {
+content: "\f341";
+}
+
+table#book_oz_clientTime .timeRange {
+	margin-top:0;
+}
+
+.hide {
+	display:none;
+}
+
+.if_not_set {
+    font-style: italic;
+    color: #adadad;
+}
+
+.worktime_check label {
+    padding-right: 20px;
+    font-size: 16px;
+    color: #67757c;
+}
+
+.plav_grafh_block p {
+    color: #67757c;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+label.width33fl {
+    width: 33.33333%;
+}
+
+#book_oz_servListSelect,
+#book_oz_worktime {
+	width:50%;
+}
+
+#book_oz_worktime {
+	background:#eee;
+}
+
+.re-control {
+    width: 35px;
+    text-align: center;
+	-webkit-order:2;
+	order:2;
+}
+
+#oz_re_timerange .repeater-table {
+	width:88%;
+	-webkit-order:1;
+	order:1;
+}
+
+#oz_re_timerange .at-repater-block img {
+	-webkit-order:2;
+	order:2;	
+}
+
+#oz_re_timerange table td.at-field {
+padding-left:0;
+}
+
+#book_oz_service .form-table {
+	width:50%;
+}
+
+body[class*="book-appointment-online"] .form-table {
+	background:#fff;
+	box-shadow: 0 1px 1px rgba(0,0,0,.04);
+	border: 1px solid #e5e5e5;
+	padding:20px;
+    margin-bottom: 20px;
+}
+
+body[class*="book-appointment-online"] .form-table th,
+body[class*="book-appointment-online"] .form-table td {
+	padding:10px;
+}
+
+body[class*="book-appointment-online"] .form-table th:first-child,
+body[class*="book-appointment-online"] .form-table td:nth-child(2) {
+	padding:20px 10px 10px;
+}
+
+body[class*="book-appointment-online"] .form-table th label,
+body[class*="book-appointment-online"] .form-table th  {
+color: #67757c;
+font-size: 14px;
+font-weight: 400;
+}
+
+body[class*="book-appointment-online"] .oz_as_shortcode .welcome-panel {
+	border:0px;
+}
+
+.hidenextTr span { 
+color: #0085ba;
+border-bottom: 1px dashed;
+cursor:pointer;
+}
+
+.hidenextTr span:hover {
+opacity:0.8;
+}
+
+.hidenextDiv {
+padding: 20px 0;
+font-size: 1.2em;
+}
+
+.fc-list-item-title a {
+	font-size:16px;
+}
+
+.book_oz_tab{
+	display:none;
+}
+
+.book_oz_tab.active {
+	display:block;
+}
+
+.book_oz-form-sms.active {
+display: table;
+width: 100%;
+}
+
+.book_oz_tabs {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items:center;
+  align-items:center;
+  margin-bottom: 0;
+}
+
+.book_oz_tabs li {
+color: #b8bec3;
+font-weight: 400;
+background: #fff;
+padding: 12px 16px 10px 5px;
+font-size: 13px;
+border-radius: 1px;
+margin-right: 3px;
+cursor: pointer;
+-webkit-transition: all .3s ease;
+transition: all .3s ease;
+position:relative;
+}
+
+.book_oz_tabs li .dashicons { 
+font-size: 1em !important;
+vertical-align: middle;
+line-height: 1.5em;
+}
+
+.book_oz_tabs li.active, 
+.book_oz_tabs li:hover {
+    color: #4d5450;
+}
+
+.book_oz_tabs li:hover {
+box-shadow: 0 1px 1px rgba(0,0,0,.04);
+}
+
+.book_oz_tabs li.active .dashicons {
+	color: #2dde98;
+}
+
+.book_oz_tabs li sup,
+.book_oz_tab label sup {
+    line-height: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: #F44336;
+    color: #fff;
+    padding: 0 2px;
+    font-size: 10px;
+    position: absolute;
+    top: -6px;
+    right: 10px;
+}
+
+.only-pro-div {
+    display: flex;
+    align-items: center;
+    background: #f2f7fd;
+    padding: 15px;
+    font-size: 17px;
+    font-weight: bold;
+    color: #f44336;
+}
+
+.only-pro-div span {
+	cursor:pointer;
+    margin-left: 10px;
+    font-size: 13px;
+    color: #777;
+    border-bottom: 1px dashed;
+}
+
+.only-pro-div span:hover {
+	opacity:0.7;
+}
+
+.neum-btn {
+    background: #2ddfb1;
+    border-radius: 7px;
+    color: #fff;
+    font-weight: bold;
+    padding: 12px 15px;
+    display: inline-block;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    cursor: pointer;
+    border: 0px;
+    outline: none;
+    position: relative;
+    outline: none;
+    font-size: 15px;
+    position: relative;
+	text-decoration:none;
+	margin-left: auto;
+}
+
+.neum-btn:hover {
+	background:#20e8b5;
+	color:#fff;
+}
+
+.oz_accordion {
+    cursor: pointer;
+    background: #2dde98;
+	font-size: 18px;
+	height: auto;
+	line-height: 1;
+	padding: 10px 10px 15px;
+	color:#fff;
+	box-shadow: 0 1px 1px rgba(0,0,0,.04);
+	-webkit-transition: all .3s ease;
+	transition: all .3s ease;
+	position: relative;
+	margin-top: 10px;
+}
+
+.oz_accordion .dashicons {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    font-size: 26px;
+    margin-top: -13px;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+}
+
+.only-pro-opac {
+	opacity:0.6;
+	pointer-events:none;
+}
+
+.oz_accordion.active .dashicons::before {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+	display:inline-block;
+}
+
+.only-pro-dis {
+	position:relative;
+}
+
+.only-pro-dis:after {
+	content:'';
+	position:absolute;
+	top:0;
+	left:0;
+	right:0;
+	bottom:0;
+	pointer-events:none;
+}
+
+@media (max-width:767px) {
+	.book_oz_tabs {
+		overflow:auto;
+	}
+	.book_oz_tabs li {
+	    white-space: nowrap;	
+	}
+}
+
+.oz_widget_calendar .fc-list-item-title.fc-widget-content a {
+	font-size: 1.2em;
+}
+
+.oz_row-100 {
+	width:100%;
+}
+
+.oz_input_with_btn {
+	width:100%;
+	padding:0 5px;
+}
+
+.oz_input_with_btn .button {
+	height: 41px;
+	vertical-align: middle;
+	line-height: 38px;
+	padding: 0px 20px;
+}
+
+.postbox table[id*="book_oz"] {
+	table-layout:fixed;
+}
+
+.postbox table[id*="book_oz"] input {
+    max-width: 100%;
+	}
+	
+.ac-clients.edit-php.post-type-clients .alignleft.actions {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+.oz_statuses_dashboard_flex,
+.oz_flex {
+	display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+.oz_flex.oz_flex-wrap {
+	-webkit-flex-wrap:wrap;
+	flex-wrap:wrap;
+}
+
+.filter-datepicker {
+	width: 100px;
+	max-width: 100%;
+	height: 28px;
+	}
+	
+.oz_code {
+	padding: 3px 5px 2px 5px;
+	margin: 0 1px;
+	background: #eaeaea;
+	background: rgba(0,0,0,.07);
+	font-size: 13px;
+	cursor:pointer;
+	line-height: 27px;
+}
+
+.oz_data_edit,
+.oz_data_100 {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+}
+
+[class*="oz_data_"] {
+	padding-left: 3px;
+	padding-right: 3px;
+	box-sizing: border-box;
+	-webkit-flex:1;
+	flex: 1;
+}
+
+
+.oz_data_100 {
+	width:100%;
+}
+
+.oz_data_70 {
+	width:70%;
+}
+
+.oz_data_50 {
+	width:50%;
+}
+
+.oz_data_40 {
+	width:40%;
+}
+
+.oz_data_33 {
+	width:33.333333%;
+}
+
+.oz_data_30 {
+	width:30%;
+}
+
+.oz_data_25 {
+	width:25%;
+}
+
+.oz_data_20 {
+	width:20%;
+}
+
+.oz_data_flex_1 {
+	-webkit-flex:1;
+	flex: 1;
+}
+
+.oz_data_flex_2 {
+	-webkit-flex:2;
+	flex: 2;
+}
+
+
+.oz_data_flex_3 {
+	-webkit-flex:3;
+	flex: 3;
+}
+
+
+.oz_data_flex_4 {
+	-webkit-flex:4;
+	flex: 4;
+}
+
+
+.oz_data_flex_5 {
+	-webkit-flex:5;
+	flex: 5;
+}
+
+.oz_data_width_percent {
+	max-width:55px;
+}
+
+.oz_edit_data {
+	background: #fff;
+	border-top: 2px solid #2dde98;
+	padding: 0px 10px 10px;
+}
+
+.oz_multi_options {
+	background: #f2f0f0;
+	padding: 10px;
+	padding:10px 5px;
+}
+
+.oz_row {
+	padding:0;
+}
+
+.oz_direction_row {
+	-webkit-flex-direction:row;
+	flex-direction:row;
+}
+
+.oz_mar_b_10 {
+	margin-bottom:6px;
+}
+
+body[class*="book-appointment-online"] .form-table .oz_edit_data label {
+	padding: 15px 5px;
+	font-weight: bold;
+	}
+	
+.oz_nopadding_l {
+	padding:0;
+}
+
+body[class*="book-appointment-online"] .form-table td label.oz_label_block {
+	display:block;
+	padding:5px 0;
+}
+
+.oz_edit_data .select2-container {
+	min-width:100%;
+}
+
+.oz_coupon_wrap {
+	background: #2dde98;
+	color: #fff;
+	margin-bottom: 10px;
+}
+
+.oz_coupon_date_el {
+	background: #fff;
+	position:relative;
+	color:#67757c;
+	padding:3px 10px;
+	width: 100%;
+}
+
+.oz_coupon_date_el:before {
+	content: '';
+	width: 100%;
+	border-top: 6px dotted #fff;
+	position: absolute;
+	top: -3px;
+	left:0;
+	display: block;
+}
+
+.oz_coupon_tool {
+	margin-left:auto;
+}
+
+.oz_wrap {
+	-webkit-flex-wrap:wrap;
+	flex-wrap:wrap;
+}
+
+.oz_coupon_wrap {
+	-webkit-flex-wrap:wrap;
+	flex-wrap:wrap;
+	-webkit-align-items: center;
+	align-items: center;
+}
+
+.oz_coupon_code_el {
+	width:80%;
+	padding: 5px 10px;
+	box-sizing: border-box;
+}
+
+.oz_coupon_dis_el {
+	width: 20%;
+	text-align: center;
+	font-size: 24px;
+	font-weight: bold;
+	-webkit-justify-content: center;
+	justify-content: center;
+}
+
+.oz_coupon_date_el {
+	width:100%;
+	padding: 5px 10px;
+	box-sizing: border-box;
+	margin-top: 5px;
+}
+
+.oz_coupon_code {
+	display: inline-block;
+	font-weight: bold;
+	border-bottom: 2px dotted;
+	font-size: 16px;
+}
+
+.oz_coupon_usl {
+	display:block;
+}
+
+.oz_func_list {
+	padding: 0 10px;
+	margin: 0;
+}
+
+.oz_coupon_tool span {
+	cursor:pointer;
+	-webkit-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+.oz_list_edit {
+	cursor:pointer;
+	-webkit-transition: all .3s ease;
+	transition: all .3s ease;
+}
+
+.oz_list_edit:hover {
+	color:#2dde98;
+}
+
+.oz_list_del {
+	cursor:pointer;
+	-webkit-transition: all .3s ease;
+	transition: all .3s ease;	
+}
+
+.oz_list_del:hover {
+	color:#ca4a1f
+}
+
+.oz_coupon_max {
+	width: 100%;
+	font-size: 0.5em;
+	font-weight: 400;
+}
+
+.oz_coupon_amount {
+	display:inherit;
+}
+
+.oz_loading {
+	position:relative;
+}
+
+.oz_loading:after {
+	content: '';
+    position: absolute;
+    top: 3px;
+    right: 0;
+    width: 24px;
+    height: 24px;
+    background-image: url(/wp-content/plugins/book-appointment-online-pro/images/oz_loading.gif);
+    background-position: center center;
+    background-size: 100% 100%;
+    -webkit-transition: all .3s ease;
+    transition: all .3s ease;
+    opacity: 1;
+}
+
+input.oz_req {
+    border: 1px solid red !important;
+}
+
+.oz_tag {
+	border: 1px solid #2dde98;
+	border-radius: 4px;
+	display: inline-block;
+	padding: 1px 2px;
+	color:#647e8c;
+    margin: 1px 0;
+}
+
+.oz_tag-remove {
+	color:#a00;
+	cursor: pointer;
+}
+
+.oz_days li {
+	border-bottom: 1px solid #ddd;
+	padding: 10px 5px;
+}
+
+.oz_close_right {
+	font-size: 2em;
+	float: right;
+	position: relative;
+	margin-top: -12px;
+}
+
+.oz_days ul {
+    max-height: 275px;
+    overflow: auto;
+	overflow-x:hidden;
+    margin: 0;	
+}
+
+.oz_w100 {
+		width:100%;
+}
+
+.oz_flex input {
+	max-width:100%;
+}
+
+.custom_grafh .width50fl {
+	padding:0 5px;
+}
+
+.oz_cust_field_line {
+	display: flex;
+    margin: 0 -5px 20px;
+    background: #F9F9F9;
+    padding: 0 5px;
+    border: 1px solid #f1f1f1;
+	justify-content: space-between;
+}
+
+body[class*="book-appointment-online"] input[type="number"] {
+	min-height:40px;
+}
+
+body[class*="book-appointment-online"] .oz_cust_field_order input {
+	width:80px;
+}
+
+.oz_cust_elem {
+	padding:10px 5px;
+	position:relative;
+}
+
+.oz_cust_elem.oz_cust_field_name {
+	width:30%;
+}
+
+.oz_cust_elem.oz_cust_field_type {
+	width:25%;
+}
+
+.oz_cust_field_req input {
+margin-top:15px;	
+}
+
+.oz_cust_elem.oz_cust_field_remove span {
+margin-top:30px;
+}
+
+.oz_cust_elem.oz_cust_field_remove span {
+	cursor:pointer;
+	color:#a00;
+	transition:all .3s ease;
+}
+
+.oz_cust_elem.oz_cust_field_remove span:hover {
+	color: #dc3232;
+}
+
+.oz_cust_elem.oz_cust_field_type textarea {
+	width:100%;
+}
+
+.oz_cust_field_textarea {
+	margin-top:5px;
+}
+
+.oz_cust_elem.oz_cust_sorting {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+flex-direction: column;	
+}
+
+.oz_cust_elem.oz_cust_sorting .order-number {
+-webkit-align-self: center;
+align-self: center;
+margin: auto;
+border: 1px solid #ddd;
+border-radius: 50%;
+width: 30px;
+height: 30px;
+background: #fff;
+text-align: center;
+line-height: 30px;
+cursor: move;
+}
+
+.oz_cust_fields_ul li {
+	line-height:1;
+}
+
+.oz_h4 {
+	font-size:22px;
+}
+
+.oz_email_tabs {
+    display: none;
+}

@@ -1,0 +1,753 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-06-22 09:39+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/"
+
+#: book-appointment-online.php:55 book-appointment-online.php:160
+msgid "Booking settings"
+msgstr ""
+
+#: book-appointment-online.php:102 book-appointment-online.php:107
+msgid "First work day:"
+msgstr ""
+
+#: book-appointment-online.php:103
+msgid "Contact with developers!"
+msgstr ""
+
+#: book-appointment-online.php:104 inc/personal.php:66
+msgid "Add work hours"
+msgstr ""
+
+#: book-appointment-online.php:105
+msgid "from"
+msgstr ""
+
+#: book-appointment-online.php:106
+msgid "before"
+msgstr ""
+
+#: book-appointment-online.php:168
+msgid "Main settings"
+msgstr ""
+
+#: book-appointment-online.php:171 inc/meta-boxes.php:24 inc/meta-boxes.php:25
+msgid "Not select"
+msgstr ""
+
+#: book-appointment-online.php:189
+msgid "How to place"
+msgstr ""
+
+#: book-appointment-online.php:191
+msgid "Add shortcode to page"
+msgstr ""
+
+#: book-appointment-online.php:192
+msgid "Add php code to template"
+msgstr ""
+
+#: book-appointment-online.php:196
+msgid "Template"
+msgstr ""
+
+#: book-appointment-online.php:199
+msgid "Default"
+msgstr ""
+
+#: book-appointment-online.php:200
+msgid "No styles"
+msgstr ""
+
+#: book-appointment-online.php:205
+msgid "Currency"
+msgstr ""
+
+#: book-appointment-online.php:261
+msgid "Employees"
+msgstr ""
+
+#: book-appointment-online.php:262
+msgid "Employe"
+msgstr ""
+
+#: book-appointment-online.php:263 book-appointment-online.php:264
+msgid "Add employe"
+msgstr ""
+
+#: book-appointment-online.php:265 book-appointment-online.php:266
+msgid "Edit employe"
+msgstr ""
+
+#: book-appointment-online.php:267
+msgid "New employe"
+msgstr ""
+
+#: book-appointment-online.php:268 book-appointment-online.php:269
+msgid "View employe"
+msgstr ""
+
+#: book-appointment-online.php:270
+msgid "Search employe"
+msgstr ""
+
+#: book-appointment-online.php:271
+msgid "Employe not found"
+msgstr ""
+
+#: book-appointment-online.php:272
+msgid "Employees not found in trash"
+msgstr ""
+
+#: book-appointment-online.php:273
+msgid "Parent employe"
+msgstr ""
+
+#: book-appointment-online.php:290 inc/meta-boxes.php:60
+msgid "Clients"
+msgstr ""
+
+#: book-appointment-online.php:291
+msgid "Client"
+msgstr ""
+
+#: book-appointment-online.php:292 book-appointment-online.php:293
+msgid "Add client"
+msgstr ""
+
+#: book-appointment-online.php:294 book-appointment-online.php:295
+msgid "Edit client"
+msgstr ""
+
+#: book-appointment-online.php:296
+msgid "New client"
+msgstr ""
+
+#: book-appointment-online.php:297 book-appointment-online.php:298
+msgid "View client"
+msgstr ""
+
+#: book-appointment-online.php:299
+msgid "Search client"
+msgstr ""
+
+#: book-appointment-online.php:300
+msgid "Clients not found"
+msgstr ""
+
+#: book-appointment-online.php:301
+msgid "Clients not found in trash"
+msgstr ""
+
+#: book-appointment-online.php:302
+msgid "Parent client"
+msgstr ""
+
+#: book-appointment-online.php:316 inc/meta-boxes.php:24
+msgid "Services"
+msgstr ""
+
+#: book-appointment-online.php:317 templates/email_admin.php:164
+#: templates/shortcode.php:83 templates/email_before.php:164
+#: templates/emails/to_client.php:20 templates/emails/to_admin.php:34
+msgid "Service"
+msgstr ""
+
+#: book-appointment-online.php:318 book-appointment-online.php:319
+msgid "Add service"
+msgstr ""
+
+#: book-appointment-online.php:320 book-appointment-online.php:321
+msgid "Edit service"
+msgstr ""
+
+#: book-appointment-online.php:322
+msgid "New service"
+msgstr ""
+
+#: book-appointment-online.php:323 book-appointment-online.php:324
+msgid "View service"
+msgstr ""
+
+#: book-appointment-online.php:325
+msgid "Search service"
+msgstr ""
+
+#: book-appointment-online.php:326
+msgid "Services not found"
+msgstr ""
+
+#: book-appointment-online.php:327
+msgid "Service not found"
+msgstr ""
+
+#: book-appointment-online.php:328
+msgid "Parent service"
+msgstr ""
+
+#: book-appointment-online.php:450
+msgid "Address"
+msgstr ""
+
+#: book-appointment-online.php:485
+msgid "Description"
+msgstr ""
+
+#: book-appointment-online.php:496
+msgid ""
+"The description is not prominent by default; however, some themes may show "
+"it."
+msgstr ""
+
+#: book-appointment-online.php:525 inc/meta-boxes.php:105
+msgid "Price"
+msgstr ""
+
+#: book-appointment-online.php:526 inc/functions-front.php:116
+#: inc/functions-front.php:337
+msgid "time (min)"
+msgstr ""
+
+#: book-appointment-online.php:541
+msgid "Booking date"
+msgstr ""
+
+#: book-appointment-online.php:542 inc/meta-boxes.php:27
+msgid "Booking time"
+msgstr ""
+
+#: book-appointment-online.php:543 templates/email_before.php:165
+#: templates/emails/to_client.php:23 templates/emails/to_admin.php:37
+msgid "Specialist"
+msgstr ""
+
+#: book-appointment-online.php:592
+msgid "You booked!"
+msgstr ""
+
+#: book-appointment-online.php:593
+msgid "Morning"
+msgstr ""
+
+#: book-appointment-online.php:594
+msgid "Day"
+msgstr ""
+
+#: book-appointment-online.php:595
+msgid "Evening"
+msgstr ""
+
+#: book-appointment-online.php:596
+msgid "Contact information"
+msgstr ""
+
+#: book-appointment-online.php:597
+msgid "Select service"
+msgstr ""
+
+#: book-appointment-online.php:598
+msgid "Confirm booking"
+msgstr ""
+
+#: book-appointment-online.php:599
+msgid "Select time booking"
+msgstr ""
+
+#: book-appointment-online.php:600
+msgid "Select date"
+msgstr ""
+
+#: book-appointment-online.php:601
+msgid "Select specialist"
+msgstr ""
+
+#: book-appointment-online.php:602
+msgid "Service not worked at now"
+msgstr ""
+
+#: book-appointment-online.php:603
+msgid "Skip selecting specialist"
+msgstr ""
+
+#: book-appointment-online.php:724 inc/meta-boxes.php:73
+msgid "Booking calendar"
+msgstr ""
+
+#: book-appointment-online.php:803
+msgid "Time slot duration"
+msgstr ""
+
+#: book-appointment-online.php:807 extensions/email-marketing.php:347
+msgid "minutes"
+msgstr ""
+
+#: book-appointment-online.php:832
+msgid "Autoheight"
+msgstr ""
+
+#: book-appointment-online.php:907
+msgid "Something is wrong with color settings"
+msgstr ""
+
+#: book-appointment-online.php:921
+msgid "Color options"
+msgstr ""
+
+#: book-appointment-online.php:923
+msgid "Main color, second color, background color"
+msgstr ""
+
+#: book-appointment-online.php:1077 book-appointment-online.php:1078
+msgid "Please tell us why are you deactivating the plugin?"
+msgstr ""
+
+#: book-appointment-online.php:1080
+msgid "Poor design"
+msgstr ""
+
+#: book-appointment-online.php:1081
+msgid "Too few features"
+msgstr ""
+
+#: book-appointment-online.php:1082
+msgid "Plugin is buggy on my website"
+msgstr ""
+
+#: book-appointment-online.php:1083
+msgid "This is a temporary deactivation"
+msgstr ""
+
+#: book-appointment-online.php:1084
+msgid "Another reason"
+msgstr ""
+
+#: book-appointment-online.php:1085
+msgid "Submit"
+msgstr ""
+
+#: book-appointment-online.php:1121
+msgid "Deactivating the plugin..."
+msgstr ""
+
+#: book-appointment-online.php:1131
+msgid "Please choose or typing a reason"
+msgstr ""
+
+#: inc/meta-boxes.php:11 templates/email_admin.php:216
+msgid "Client data"
+msgstr ""
+
+#: inc/meta-boxes.php:22 templates/shortcode.php:105
+#: extensions/custom-fields.php:48
+msgid "Phone"
+msgstr ""
+
+#: inc/meta-boxes.php:23 templates/shortcode.php:110
+#: extensions/custom-fields.php:57
+msgid "Email"
+msgstr ""
+
+#: inc/meta-boxes.php:25
+msgid "Employe name"
+msgstr ""
+
+#: inc/meta-boxes.php:26 inc/meta-boxes.php:84 templates/email_admin.php:166
+#: templates/shortcode.php:82 templates/email_before.php:166
+#: templates/emails/to_client.php:14 templates/emails/to_admin.php:20
+msgid "Date"
+msgstr ""
+
+#: inc/meta-boxes.php:32
+msgid "About employe"
+msgstr ""
+
+#: inc/meta-boxes.php:43
+msgid "Specialty"
+msgstr ""
+
+#: inc/meta-boxes.php:48 inc/meta-boxes.php:59 inc/personal.php:53
+msgid "Schedule"
+msgstr ""
+
+#: inc/meta-boxes.php:61 extensions/email-marketing.php:376
+msgid "Service name"
+msgstr ""
+
+#: inc/meta-boxes.php:65
+msgid "Services list"
+msgstr ""
+
+#: inc/meta-boxes.php:89
+msgid "Service params"
+msgstr ""
+
+#: inc/meta-boxes.php:106
+msgid "Service time"
+msgstr ""
+
+#: inc/personal.php:54
+msgid "MO"
+msgstr ""
+
+#: inc/personal.php:55
+msgid "TU"
+msgstr ""
+
+#: inc/personal.php:56
+msgid "WE"
+msgstr ""
+
+#: inc/personal.php:57
+msgid "TH"
+msgstr ""
+
+#: inc/personal.php:58
+msgid "FR"
+msgstr ""
+
+#: inc/personal.php:59
+msgid "SA"
+msgstr ""
+
+#: inc/personal.php:60
+msgid "SU"
+msgstr ""
+
+#: inc/personal.php:73
+msgid "Add new line"
+msgstr ""
+
+#: inc/personal.php:79 inc/personal.php:111
+msgid "Time start"
+msgstr ""
+
+#: inc/personal.php:80 inc/personal.php:114
+msgid "Time end"
+msgstr ""
+
+#: inc/personal.php:81 inc/personal.php:116 class/custom-meta-box.php:437
+#: class/custom-meta-box.php:437
+msgid "Add"
+msgstr ""
+
+#: inc/personal.php:90 inc/clients.php:102
+msgid "Edit"
+msgstr ""
+
+#: inc/personal.php:93
+msgid "Shift work"
+msgstr ""
+
+#: inc/personal.php:96 inc/personal.php:102
+msgid "Week"
+msgstr ""
+
+#: inc/personal.php:99
+msgid "across"
+msgstr ""
+
+#: inc/personal.php:108
+msgid "Date of any first shift"
+msgstr ""
+
+#: inc/personal.php:149
+msgid "Provides services"
+msgstr ""
+
+#: inc/personal.php:153
+msgid "All services"
+msgstr ""
+
+#: inc/personal.php:154
+msgid "Exclude services below"
+msgstr ""
+
+#: inc/personal.php:155
+msgid "Include services below"
+msgstr ""
+
+#: inc/functions-front.php:121 inc/functions-front.php:342
+msgid "price"
+msgstr ""
+
+#: inc/functions-front.php:138
+msgid ""
+"No services available. Try to change the time of the service or choose "
+"another specialist."
+msgstr ""
+
+#: inc/functions-front.php:423 templates/shortcode.php:69
+msgid "Select"
+msgstr ""
+
+#: inc/clients.php:101
+#, php-format
+msgid "An appointment has already passed <b>%s</b> at <b>%s</b>"
+msgstr ""
+
+#: templates/email_admin.php:99 templates/email_before.php:99
+msgid "(Optional) This demo Email template. You can add your own template."
+msgstr ""
+
+#: templates/email_admin.php:117 extensions/email-marketing.php:259
+msgid "New booking on %date%"
+msgstr ""
+
+#: templates/email_admin.php:128
+msgid "New booking from %name%"
+msgstr ""
+
+#: templates/email_admin.php:149 templates/email_before.php:149
+msgid "Order details"
+msgstr ""
+
+#: templates/email_admin.php:165
+msgid "Employee"
+msgstr ""
+
+#: templates/email_admin.php:167 templates/email_before.php:167
+msgid "Duration (min)"
+msgstr ""
+
+#: templates/email_admin.php:198 templates/email_before.php:198
+msgid "Order number"
+msgstr ""
+
+#: templates/shortcode.php:9
+msgid "Back"
+msgstr ""
+
+#: templates/shortcode.php:11
+msgid "Select employee"
+msgstr ""
+
+#: templates/shortcode.php:81
+msgid "Specialist:"
+msgstr ""
+
+#: templates/shortcode.php:82
+msgid "at"
+msgstr ""
+
+#: templates/shortcode.php:84
+msgid "Leave your contacts!"
+msgstr ""
+
+#: templates/shortcode.php:101 extensions/email-marketing.php:382
+#: extensions/custom-fields.php:39
+msgid "Name"
+msgstr ""
+
+#: templates/shortcode.php:114
+msgid "Booking"
+msgstr ""
+
+#: templates/email_before.php:117
+msgid "%name%, you booked!"
+msgstr ""
+
+#: templates/email_before.php:128
+msgid "%name%, Thank you for booking!"
+msgstr ""
+
+#: templates/email_before.php:216
+msgid "Your data"
+msgstr ""
+
+#: templates/email_before.php:250
+msgid "Here you can include your special offer!"
+msgstr ""
+
+#: extensions/email-marketing.php:44
+msgid "New booking on "
+msgstr ""
+
+#: extensions/email-marketing.php:55 extensions/email-marketing.php:264
+msgid "Thank you for booking"
+msgstr ""
+
+#: extensions/email-marketing.php:201
+msgid "Email marketing"
+msgstr ""
+
+#: extensions/email-marketing.php:257
+msgid "Email template about booking to the admin"
+msgstr ""
+
+#: extensions/email-marketing.php:257
+msgid "employee"
+msgstr ""
+
+#: extensions/email-marketing.php:258 extensions/email-marketing.php:263
+msgid "Email template when user has booked an appointment"
+msgstr ""
+
+#: extensions/email-marketing.php:262
+msgid "Email template on booking"
+msgstr ""
+
+#: extensions/email-marketing.php:267
+msgid "Email template reminder"
+msgstr ""
+
+#: extensions/email-marketing.php:271
+msgid "Email template reminder (to employee, admin)"
+msgstr ""
+
+#: extensions/email-marketing.php:275
+msgid "Email template about reschedule"
+msgstr ""
+
+#: extensions/email-marketing.php:279
+msgid "Email template after booking"
+msgstr ""
+
+#: extensions/email-marketing.php:283
+msgid "Email template on customer register"
+msgstr ""
+
+#: extensions/email-marketing.php:297
+msgid "Email to notification"
+msgstr ""
+
+#: extensions/email-marketing.php:303
+msgid "From name (name)"
+msgstr ""
+
+#: extensions/email-marketing.php:309
+msgid "From (email)"
+msgstr ""
+
+#: extensions/email-marketing.php:309
+msgid "E-mail must contain domain of your site. eg: "
+msgstr ""
+
+#: extensions/email-marketing.php:331
+msgid "Enable"
+msgstr ""
+
+#: extensions/email-marketing.php:348
+msgid "hour"
+msgstr ""
+
+#: extensions/email-marketing.php:349 extensions/email-marketing.php:350
+#: extensions/email-marketing.php:351
+msgid "hours"
+msgstr ""
+
+#: extensions/email-marketing.php:359
+msgid "Email title"
+msgstr ""
+
+#: extensions/email-marketing.php:371
+msgid "Site URL"
+msgstr ""
+
+#: extensions/email-marketing.php:372
+msgid "Date booking"
+msgstr ""
+
+#: extensions/email-marketing.php:373 templates/emails/to_client.php:17
+#: templates/emails/to_admin.php:23
+msgid "Time booking"
+msgstr ""
+
+#: extensions/email-marketing.php:374
+msgid "ID of booking (post ID)"
+msgstr ""
+
+#: extensions/email-marketing.php:375
+msgid "Staff name"
+msgstr ""
+
+#: extensions/email-marketing.php:377
+msgid "Client name"
+msgstr ""
+
+#: extensions/email-marketing.php:378 templates/emails/to_admin.php:30
+msgid "Client phone"
+msgstr ""
+
+#: extensions/email-marketing.php:379 templates/emails/to_admin.php:26
+msgid "Client email"
+msgstr ""
+
+#: extensions/email-marketing.php:383
+msgid "Customer login"
+msgstr ""
+
+#: extensions/email-marketing.php:384
+msgid "Password"
+msgstr ""
+
+#: extensions/email-marketing.php:390
+msgid "Custom fields"
+msgstr ""
+
+#: extensions/email-marketing.php:395
+msgid "Load default template"
+msgstr ""
+
+#: extensions/custom-fields.php:19
+msgid "Form settings"
+msgstr ""
+
+#: extensions/custom-fields.php:37
+msgid "Form fields"
+msgstr ""
+
+#: extensions/custom-fields.php:42 extensions/custom-fields.php:51
+#: extensions/custom-fields.php:60
+msgid "Yes"
+msgstr ""
+
+#: extensions/custom-fields.php:44 extensions/custom-fields.php:53
+#: extensions/custom-fields.php:62
+msgid "Required"
+msgstr ""
+
+#: templates/emails/to_client.php:30
+msgid "Thank you!"
+msgstr ""
+
+#: templates/emails/to_client.php:31
+msgid "Your data:"
+msgstr ""
+
+#: templates/emails/to_admin.php:44
+msgid "New booking to specialist"
+msgstr ""
+
+#: templates/emails/to_admin.php:45
+msgid "leave message. Message data:"
+msgstr ""
+
+#. Name of the plugin
+msgid "Book appointment online"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Appointment online to a specialist. Perfectly suitable for beauty salons, "
+"medical centers, car services, etc."
+msgstr ""
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "http://demo.oz-plugin.ru/"
+msgstr ""
+
+#. Author of the plugin
+msgid "oz-plugin"
+msgstr ""
